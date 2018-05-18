@@ -1,8 +1,8 @@
-# Week 1, Day 2 Morning Discussion Questions
+# Procedural Ruby Discussion Questions
 
 ## Instructions
 
-Take 30 minutes and answer the following questions together with your group. Take turns playing around with the code provided in Pry or IRB.
+Take 30 minutes and answer the following questions together. Take turns playing around with the code provided in Pry or IRB.
 
 ## Questions
 
@@ -45,8 +45,8 @@ word_count("Hi, isn't this a great and interesting sentence??")
 
 ```ruby
 def rude_greeting(name=nil)
- name ||= "you jerk"
- puts "Hey there, #{name}"
+  name ||= "you jerk"
+  puts "Hey there, #{name}"
 end
 ```
 
@@ -107,5 +107,3 @@ foods = {"pie" => "delicious", "broccoli" => "not delicious",
       "Quotes" => ["I swear to god, I had something for this", "Phrasing", "Boop", "Danger Zone", "Read a book", "Do you not?", "Can't or won't?"]
   }
 ```
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/immersive-week-1-discussion-questions'>Immersive Week 1 Discussion Questions</a> on Learn.co and start learning to code for free.</p>
